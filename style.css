@@ -12,3 +12,12 @@
     --fs-logo: 1.5rem;
     --fs-secondary: 1.125rem;   
 }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
