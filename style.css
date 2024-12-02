@@ -110,7 +110,7 @@ h1 {
     border: none;
     color: var(--clr-button-text);
     padding: 0.5em 2em;
-    font-weight: var(--fw-header);
+    font-weight: 700;
     border-radius: 10px;
     font-size: var(--fs-secondary);
 }
@@ -157,6 +157,29 @@ h2 {
 
 .image-subtext {
     color: var(--clr-text-secondary);
+}
+
+/* Quote section */
+
+.inspiring-quote {
+    background-color: var(--clr-button-text);
+    padding: 5rem 13rem;
+    text-align: center;
+}
+
+.quote {
+    font-size: var(--fs-quote);
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--clr-background);
+}
+
+.author {
+    text-align: right;
+    margin-inline-end: 3rem;
+    font-size: var(--fs-logo);
+    color: var(--clr-background);
+    font-weight: var(--fw-header);
 }
 
 /* Footer styles */
