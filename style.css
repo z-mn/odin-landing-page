@@ -3,9 +3,10 @@
 :root {
     --ff-main: 'Roboto', sans-serif;
     --clr-background: #1F2937;
-    --clr-text-secondary: #E5E7EB;
+    --clr-text-secondary: #A5A7AB;
     --clr-text-logo: #F9FAF8;
     --clr-button: #3882F6;
+    --clr-button-text: #E5E7EB;
     --fw-header: 900;
     --fs-header: 3rem;
     --fs-quote: 2.25rem;
@@ -107,7 +108,7 @@ h1 {
 .sign {
     background-color: var(--clr-button);
     border: none;
-    color: var(--clr-text-secondary);
+    color: var(--clr-button-text);
     padding: 0.5em 2em;
     font-weight: var(--fw-header);
     border-radius: 10px;
@@ -118,6 +119,44 @@ h1 {
 
 main {
     flex: 1;
+}
+
+/* 'random info' section */
+
+.random-information {
+    padding: 3rem 18rem 5rem 15rem;
+}
+
+h2 {
+    text-align: center;
+    color: var(--clr-background);
+    font-size: var(--fs-quote);
+    margin-block-end: 3rem;
+}
+
+.card-container {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    flex: auto;
+}
+
+.image-box {
+    aspect-ratio: 1;
+    border: 4px solid var(--clr-button);
+    border-radius: 10px;
+}
+
+.image-subtext {
+    color: var(--clr-text-secondary);
 }
 
 /* Footer styles */
