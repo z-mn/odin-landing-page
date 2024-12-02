@@ -37,6 +37,10 @@ a {
     color: var(--clr-text-secondary);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 body {
     font-family: var(--ff-main);
     display: flex;
@@ -100,7 +104,7 @@ h1 {
     font-weight: var(--fw-header);
 }
 
-.intro p {
+.subheading {
     color: var(--clr-text-secondary);
     margin-block-end: 1rem;
 }
@@ -180,6 +184,40 @@ h2 {
     font-size: var(--fs-logo);
     color: var(--clr-background);
     font-weight: var(--fw-header);
+}
+
+/* Call to action section */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 8rem;
+}
+
+.action-container {
+    background-color: var(--clr-button);
+    padding: 3rem 7rem;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    border-radius: 5px;
+}
+
+.action-header {
+    color: var(--clr-text-logo);
+    font-weight: 600;
+    font-size: var(--fs-logo);
+}
+
+.subheading:nth-of-type(2) {
+    margin: 0;
+    color: var(--clr-button-text);
+}
+
+.sign--inverse {
+    border: 2px solid var(--clr-text-logo);
+    color: var(--clr-text-logo);
 }
 
 /* Footer styles */
