@@ -226,4 +226,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-block: 2.5rem;
+    color: var(--clr-text-secondary);
 }
